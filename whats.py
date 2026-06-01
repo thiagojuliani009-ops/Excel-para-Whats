@@ -8,13 +8,13 @@ ARQUIVO_CSV = "campo Junho 2026.csv"
 
 # Dicionário com telefones (você precisa preencher com os números reais)
 CONTATOS = {
-    "Everton G.": "+55119XXXXXXXXX",  # Substitua pelos números reais
-    "Thiago": "+5553984473607",
-    "João": "+55119XXXXXXXXX",
-    "Alexandre": "+55119XXXXXXXXX",
-    "Marco": "+55119XXXXXXXXX",
-    "Rodrigo": "+55119XXXXXXXXX",
-    "Dinalva": "+55119XXXXXXXXX",
+    "Everton G.": "+5511987654321",  # Seu código de país + DDD + número
+    "Thiago": "+5511987654321",
+    "João": "+5511987654321",
+    "Alexandre": "+5511987654321",
+    "Marco": "+5511987654321",
+    "Rodrigo": "+5511987654321",
+    "Dinalva": "+5511987654321",
     # Adicione mais contatos conforme necessário
 }
 
@@ -161,5 +161,5 @@ if __name__ == "__main__":
     enviar_mensagens(debug=True)
     
     # Após verificar, mude para debug=False para enviar de verdade
-    # enviar_mensagens(debug=False)
-    
+    enviar_mensagens(debug=False)
+
