@@ -1,0 +1,5 @@
+Date: 1/6/2026
+Time: 15:11
+Phone Number: +5553984473607
+Message: Teste enviado pelo Python!
+--------------------

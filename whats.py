@@ -2,20 +2,23 @@ import pandas as pd
 import pywhatkit as kit
 import time
 from datetime import datetime
+import pywhatkit
+
+pywhatkit.sendwhatmsg_instantly(
+    "+5553984473607",
+    "Teste enviado pelo Python!",
+    wait_time=15,
+    tab_close=True
+)
 
 # Configuração
 ARQUIVO_CSV = "campo Junho 2026.csv"
 
 # Dicionário com telefones (você precisa preencher com os números reais)
 CONTATOS = {
-    "Everton G.": "+5511987654321",  # Seu código de país + DDD + número
-    "Thiago": "+5511987654321",
-    "João": "+5511987654321",
-    "Alexandre": "+5511987654321",
-    "Marco": "+5511987654321",
-    "Rodrigo": "+5511987654321",
-    "Dinalva": "+5511987654321",
-    # Adicione mais contatos conforme necessário
+   "Thiago": "+555384473607"
+   
+   
 }
 
 def extrair_dados_escala():
